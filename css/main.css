@@ -1,0 +1,52 @@
+body
+{
+  font-family: "Lucida Grande", sans-serif;
+  line-height: 2;
+  color: #666;
+  font-size: 17px;
+}
+
+h1
+{
+  margin-bottom: 25px;
+  font-size: 45px;
+}
+
+h2
+{
+  color: #f07c17;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.features{
+  border: 1px solid #ccc;
+}
+
+.row-gap
+{
+  margin-top: 10px; 
+}
+
+.row-gap-large
+{
+  margin-top: 25px;
+}
+
+.zero-padding
+{
+  padding: 0;
+}
+
+.bottom-margin
+{
+  margin-bottom: 20px;
+}
+
+.left-margin
+{
+  margin-left: 15px;
+}
+
+
