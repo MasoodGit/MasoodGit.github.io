@@ -1,9 +1,8 @@
 body
 {
   font-family: "Lucida Grande", sans-serif;
-  line-height: 2;
   color: #666;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 h1
@@ -24,14 +23,25 @@ h2
   border: 1px solid #ccc;
 }
 
+.top-margin
+{
+  margin-top:20px;
+}
+
 .row-gap
 {
   margin-top: 10px; 
 }
-
+.row-gap-medium {
+  margin-top: 15px;
+}
 .row-gap-large
 {
-  margin-top: 25px;
+  margin-top: 20px;
+}
+
+.row-gap-huge {
+  margin-top: 35px;
 }
 
 .zero-padding
@@ -41,12 +51,34 @@ h2
 
 .bottom-margin
 {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .left-margin
 {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
+.details
+{
+  line-height: 2;
+  padding-right: 2px;
+  padding-bottom: 2px;
+}
 
+.last-details
+{
+  line-height: 2;
+  padding-right: 2px;
+  padding-bottom: 5px;
+}
+
+.container
+{
+  width: 960px;
+}
+
+li:not(:last-child) {
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
