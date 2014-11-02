@@ -1,84 +1,70 @@
-body
-{
+
+body {
   font-family: "Lucida Grande", sans-serif;
+  line-height: 2;
   color: #666;
   font-size: 16px;
 }
 
-h1
-{
-  margin-bottom: 25px;
+h1 {
   font-size: 45px;
-}
-
-h2
-{
-  color: #f07c17;
-  font-weight: bold;
-  font-size: 25px;
+  padding-bottom: 2px;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
-.features{
+h2 {
+  color: #f07c17;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.features {
   border: 1px solid #ccc;
 }
 
-.top-margin
-{
-  margin-top:20px;
-}
-
-.row-gap
-{
-  margin-top: 10px; 
-}
-.row-gap-medium {
-  margin-top: 15px;
-}
-.row-gap-large
-{
-  margin-top: 20px;
-}
-
-.row-gap-huge {
-  margin-top: 35px;
-}
-
-.zero-padding
-{
+.zero-padding {
   padding: 0;
 }
 
-.bottom-margin
-{
-  margin-bottom: 5px;
+.bottom-margin {
+  margin-bottom: 20px;
 }
 
-.left-margin
-{
-  margin-left: 10px;
+.left-margin {
+  margin-left: 15px;
 }
 
-.details
-{
-  line-height: 2;
-  padding-right: 2px;
-  padding-bottom: 2px;
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
 }
 
-.last-details
-{
-  line-height: 2;
-  padding-right: 2px;
-  padding-bottom: 5px;
+.group:after {
+  clear: both;
 }
 
-.container
-{
-  width: 960px;
+.group.gap-small {
+  margin-top: 10px;
 }
 
-li:not(:last-child) {
-    padding-top: 3px;
-    padding-bottom: 10px;
+.group.gap-medium {
+  margin-top: 15px;
+}
+
+.group.gap-large {
+  margin-top: 20px;
+}
+
+.group.gap-xlarge {
+  margin-top: 25px;
+}
+
+.group.gap-xxlarge {
+  margin-top: 30px;
+}
+.group.gap-huge {
+  margin-top: 40px;
 }
