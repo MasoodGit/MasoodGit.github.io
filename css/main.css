@@ -1,40 +1,48 @@
 
 body {
-  font-family: "Lucida Grande", sans-serif;
-  line-height: 2;
+  font: 16px/32px "Lucida Grande", sans-serif;
   color: #666;
-  font-size: 16px;
 }
+
+
+h1,
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 
 h1 {
   font-size: 45px;
   padding-bottom: 2px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
+
 
 h2 {
   color: #f07c17;
   font-size: 30px;
-  margin-top: 0;
-  margin-bottom: 0;
 }
+
 
 .features {
   border: 1px solid #ccc;
 }
 
+
 .zero-padding {
   padding: 0;
 }
+
 
 .bottom-margin {
   margin-bottom: 20px;
 }
 
+
 .left-margin {
   margin-left: 15px;
 }
+
 
 .group:before,
 .group:after {
@@ -42,29 +50,37 @@ h2 {
   display: table;
 }
 
+
 .group:after {
   clear: both;
 }
+
 
 .group.gap-small {
   margin-top: 10px;
 }
 
+
 .group.gap-medium {
   margin-top: 15px;
 }
+
 
 .group.gap-large {
   margin-top: 20px;
 }
 
+
 .group.gap-xlarge {
   margin-top: 25px;
 }
 
+
 .group.gap-xxlarge {
   margin-top: 30px;
 }
+
+
 .group.gap-huge {
   margin-top: 40px;
 }
